@@ -1,0 +1,173 @@
+/* font-famaly-hear */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+/* font-famaly-hear-end */
+
+/* root */
+:root{
+    --font-1: 'Inter', sans-serif;
+    --font-2: 'Noto Serif Khojki', serif;;
+
+    --white-color: #fff;
+    --black-color: #000;
+
+    --primary: #000;
+    --secondary: #000;
+
+    --hover-colo: #000;
+
+    --body-color: #000;
+    --heading-color: #000;
+}
+/* root */
+
+
+
+/* defaults-css-start */
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 400;
+}
+a,
+button{
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+button:focus,
+.btn:focus{
+    outline: none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-2);
+    color: var(--heading-color);
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li {
+    list-style: none
+}
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: var(--body-color);
+    margin-bottom: 15px;
+}
+label {
+    color: var(--body-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+*::-moz-selection {
+    background: var(--secondary);
+    color: var(--white-color);
+    text-shadow: none;
+}
+::-moz-selection {
+    background: var(--secondary);
+    color: var(--white-color);
+    text-shadow: none;
+}
+::selection {
+    background: var(--secondary);
+    color: var(--white-color);
+    text-shadow: none;
+}
+*::-moz-placeholder {
+    color: var(--body-color);
+    font-size: 16px;
+    opacity: 1;
+}
+*::placeholder {
+    color: var(--body-color);
+    font-size: 16px;
+    opacity: 1;
+}
+/* defaults-css--end */
+
+
+/* theme-css */
+
+
+/* theme-css-end */
+
+
+
+
+
+/* ======== header style start ============ */
+
+/* ======== header style end ============ */
+
+
+/* ======== hero style start ============ */
+/* ======== hero style end ============ */
+
+
+/* ======== sections style start ============ */
+/* ======== sections style end ============ */
+
+
+/* ======== sections style start ============ */
+/* ======== sections style end ============ */
+
+
+/* ======== sections style start ============ */
+/* ======== sections style end ============ */
+
+
+/* ======== sections style start ============ */
+/* ======== sections style end ============ */
+
+
+/* ======== sections style start ============ */
+/* ======== sections style end ============ */
+
+
+/* ======== footer style start ============ */
+/* ======== footer style end ============ */
